@@ -3,7 +3,7 @@
 A Go library that looks up the city, state and ISO 3166-2 code for an Indian pincode.
 
 ```go
-import "github.com/orangehealth/pincode"
+pincode import "github.com/orangehealth/pincode-go"
 
 loc, err := pincode.Lookup("560105")
 switch {

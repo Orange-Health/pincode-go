@@ -3,7 +3,7 @@
 # ranges: 13107
 goos: linux
 goarch: amd64
-pkg: github.com/orangehealth/pincode
+pkg: github.com/orangehealth/pincode-go
 cpu: Intel(R) Xeon(R) Processor @ 2.80GHz
 BenchmarkLookup-2              	16981203	        75.23 ns/op	       0 B/op	       0 allocs/op
 BenchmarkLookup-2              	14221708	        79.44 ns/op	       0 B/op	       0 allocs/op
@@ -36,4 +36,4 @@ BenchmarkLoad-2                	      72	  15231826 ns/op	         1.879 MB-reta
 BenchmarkLoad-2                	      94	  15408738 ns/op	         1.879 MB-retained	 8069545 B/op	   31396 allocs/op
 BenchmarkLoad-2                	      87	  15036692 ns/op	         1.879 MB-retained	 8069545 B/op	   31396 allocs/op
 PASS
-ok  	github.com/orangehealth/pincode	45.166s
+ok  	github.com/orangehealth/pincode-go	45.166s
