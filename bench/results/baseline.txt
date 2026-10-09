@@ -1,0 +1,39 @@
+# go: go version go1.24.7 linux/amd64
+# commit: none
+# ranges: 13107
+goos: linux
+goarch: amd64
+pkg: github.com/orangehealth/pincode
+cpu: Intel(R) Xeon(R) Processor @ 2.80GHz
+BenchmarkLookup-2              	16981203	        75.23 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookup-2              	14221708	        79.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookup-2              	14982859	        86.50 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookup-2              	12947649	        79.55 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookup-2              	14831580	        80.23 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookup-2              	14439915	        73.69 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupSamePincode-2   	49464686	        26.94 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupSamePincode-2   	50068246	        27.00 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupSamePincode-2   	49861872	        28.74 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupSamePincode-2   	44193997	        25.40 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupSamePincode-2   	46143374	        30.15 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupSamePincode-2   	38802997	        31.56 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupParallel-2      	34184769	        37.35 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupParallel-2      	31454929	        41.31 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupParallel-2      	29361320	        40.32 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupParallel-2      	28154426	        37.57 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupParallel-2      	28678280	        37.14 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupParallel-2      	26609577	        41.65 ns/op	       0 B/op	       0 allocs/op
+BenchmarkLookupInvalid-2       	29335497	        39.97 ns/op	      14 B/op	       0 allocs/op
+BenchmarkLookupInvalid-2       	35483842	        40.27 ns/op	      14 B/op	       0 allocs/op
+BenchmarkLookupInvalid-2       	35841672	        39.73 ns/op	      14 B/op	       0 allocs/op
+BenchmarkLookupInvalid-2       	39044162	        37.18 ns/op	      14 B/op	       0 allocs/op
+BenchmarkLookupInvalid-2       	33940585	        43.73 ns/op	      14 B/op	       0 allocs/op
+BenchmarkLookupInvalid-2       	32643044	        46.34 ns/op	      14 B/op	       0 allocs/op
+BenchmarkLoad-2                	      73	  16022574 ns/op	         1.879 MB-retained	 8069551 B/op	   31396 allocs/op
+BenchmarkLoad-2                	      68	  15106209 ns/op	         1.879 MB-retained	 8069557 B/op	   31396 allocs/op
+BenchmarkLoad-2                	      70	  15830611 ns/op	         1.879 MB-retained	 8069559 B/op	   31396 allocs/op
+BenchmarkLoad-2                	      72	  15231826 ns/op	         1.879 MB-retained	 8069558 B/op	   31396 allocs/op
+BenchmarkLoad-2                	      94	  15408738 ns/op	         1.879 MB-retained	 8069545 B/op	   31396 allocs/op
+BenchmarkLoad-2                	      87	  15036692 ns/op	         1.879 MB-retained	 8069545 B/op	   31396 allocs/op
+PASS
+ok  	github.com/orangehealth/pincode	45.166s

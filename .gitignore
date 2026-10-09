@@ -1,0 +1,3 @@
+# benchmark runs; commit one as bench/results/baseline.txt to track regressions
+bench/results/*.txt
+!bench/results/baseline.txt
