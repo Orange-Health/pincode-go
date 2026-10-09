@@ -1,3 +1,3 @@
-module github.com/orangehealth/pincode-go
+module github.com/Orange-Health/pincode-go
 
 go 1.24.7
